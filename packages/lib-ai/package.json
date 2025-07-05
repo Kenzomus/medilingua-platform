@@ -1,0 +1,7 @@
+{
+  "name": "lib-ai",
+  "main": "src/index.ts",
+  "dependencies": {
+    "openai": "^4.30.0"
+  }
+}

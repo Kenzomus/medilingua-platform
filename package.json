@@ -1,0 +1,21 @@
+{
+  "name": "medilingua-platform",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:web": "turbo run dev --filter=web",
+    "dev:chatbot": "turbo run dev --filter=chatbot",
+    "dev:docs": "turbo run dev --filter=docs",
+    "dev:mobile": "turbo run dev --filter=mobile",
+    "generate:onboard": "turbo run generate --filter=onboarding-script-gen",
+    "build": "turbo run build",
+    "lint": "turbo run lint"
+  },
+  "devDependencies": {
+    "turbo": "^1.10.0",
+    "typescript": "^5.3.3"
+  }
+}

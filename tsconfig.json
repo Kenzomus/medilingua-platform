@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@lib-ai/*": ["packages/lib-ai/src/*"],
+      "@lib-i18n/*": ["packages/lib-i18n/src/*"],
+      "@lib-voice/*": ["packages/lib-voice/src/*"]
+    },
+    "module": "ESNext",
+    "target": "ES2020",
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "strict": true,
+    "skipLibCheck": true
+  },
+  "include": ["apps", "packages"]
+}

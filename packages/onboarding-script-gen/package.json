@@ -1,0 +1,10 @@
+{
+  "name": "onboarding-script-gen",
+  "main": "src/index.ts",
+  "scripts": {
+    "generate": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "fs-extra": "^11.1.1"
+  }
+}
